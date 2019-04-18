@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "5416da9d7a7288c43615",
-    "url": "/royaltybd/static/css/main.b3579e75.chunk.css"
+    "revision": "0aace347b71b30fe12f8",
+    "url": "/royaltybd/static/css/main.48128730.chunk.css"
   },
   {
     "revision": "7b189dea204708024091",
@@ -16,28 +16,28 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/media/piggy-bank.6dcd55c1.svg"
   },
   {
-    "revision": "3bebde4f4747c72d871a",
-    "url": "/royaltybd/static/js/2.d5534972.chunk.js"
-  },
-  {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/royaltybd/static/media/slick.b7c9e1e4.woff"
+    "revision": "515a928ce41c9b2e9cc0",
+    "url": "/royaltybd/static/js/2.38f09b3b.chunk.js"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/royaltybd/static/media/slick.ced611da.eot"
   },
   {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/royaltybd/static/media/slick.b7c9e1e4.woff"
+  },
+  {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/royaltybd/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "5416da9d7a7288c43615",
-    "url": "/royaltybd/static/js/main.142236f8.chunk.js"
+    "revision": "0aace347b71b30fe12f8",
+    "url": "/royaltybd/static/js/main.034db501.chunk.js"
   },
   {
-    "revision": "376d226d8923393f603055703a1669ef",
-    "url": "/royaltybd/static/media/animat-sign-post-color.376d226d.gif"
+    "revision": "fe56dba113e9460e9f7b5f6272fb3770",
+    "url": "/royaltybd/static/media/how.fe56dba1.png"
   },
   {
     "revision": "861bd3494e9757eaf90a1aff84655628",
@@ -52,15 +52,19 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/media/animat-compass-color.f3538c57.gif"
   },
   {
+    "revision": "376d226d8923393f603055703a1669ef",
+    "url": "/royaltybd/static/media/animat-sign-post-color.376d226d.gif"
+  },
+  {
     "revision": "1678a3ecfb27a09d69d5ed27bc3500eb",
     "url": "/royaltybd/static/media/cash.1678a3ec.svg"
   },
   {
-    "revision": "3bebde4f4747c72d871a",
-    "url": "/royaltybd/static/css/2.610866b4.chunk.css"
+    "revision": "515a928ce41c9b2e9cc0",
+    "url": "/royaltybd/static/css/2.e4e32dd8.chunk.css"
   },
   {
-    "revision": "10f650d92ac55f5b431f9ba8328956bc",
+    "revision": "a20ba6df1f732f9aee269b717b1c6630",
     "url": "/royaltybd/index.html"
   }
 ];
