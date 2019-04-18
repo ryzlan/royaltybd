@@ -1,0 +1,221 @@
+a {
+    text-decoration: none !important;
+}
+.common-BodyText {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #525f7f
+}
+
+.common-UppercaseText {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em
+}
+
+.common-Link {
+    color: #6772e5;
+    font-weight: 500;
+    -webkit-transition: color .1s ease;
+    transition: color .1s ease;
+    cursor: pointer
+}
+
+.common-Link:focus,
+.common-Link:hover {
+    color: #32325d
+}
+
+.common-Link:active {
+    color: #000
+}
+
+.common-Link--arrow:after {
+    font: normal 16px StripeIcons;
+    content: "\2192";
+    padding-left: 5px
+}
+
+.common-UppercaseText.common-Link--arrow:after {
+    content: "\279C"
+}
+
+.common-Card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    -webkit-box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3), 0 -12px 36px -8px rgba(0, 0, 0, .025);
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3), 0 -12px 36px -8px rgba(0, 0, 0, .025)
+}
+
+@media (min-width:880px) {
+    .common-Card {
+        padding: 50px
+    }
+}
+
+.globalFooterCards .container-xl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -15px auto;
+    padding: 0 5px
+}
+
+a.globalFooterCard,
+div.globalFooterCard {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    margin: 15px;
+    z-index: 499;
+    z-index: calc(500 - 1);
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 40px 40px 40px 120px;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, .25), 0 8px 16px -8px rgba(0, 0, 0, .3), 0 -6px 16px -6px rgba(0, 0, 0, .025);
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, .25), 0 8px 16px -8px rgba(0, 0, 0, .3), 0 -6px 16px -6px rgba(0, 0, 0, .025);
+    -webkit-transition-property: color, background-color, -webkit-box-shadow, -webkit-transform;
+    transition-property: color, background-color, -webkit-box-shadow, -webkit-transform;
+    transition-property: color, background-color, box-shadow, transform;
+    transition-property: color, background-color, box-shadow, transform, -webkit-box-shadow, -webkit-transform;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s
+}
+
+a.globalFooterCard:after,
+div.globalFooterCard:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #aab7c4;
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transition: opacity .15s;
+    transition: opacity .15s
+}
+
+@media (min-width:670px) {
+    a.globalFooterCard,
+    div.globalFooterCard {
+        -ms-flex-preferred-size: 1%;
+        flex-basis: 1%;
+        padding-left: 100px
+    }
+}
+
+@media (min-width:880px) {
+    a.globalFooterCard,
+    div.globalFooterCard {
+        padding-left: 120px
+    }
+}
+
+a.globalFooterCard:hover,
+div.globalFooterCard:hover {
+    color: #32325d!important;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px)
+}
+
+a.globalFooterCard:active,
+a.globalFooterCard:hover,
+div.globalFooterCard:active,
+div.globalFooterCard:hover {
+    -webkit-box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3), 0 -12px 36px -8px rgba(0, 0, 0, .025);
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3), 0 -12px 36px -8px rgba(0, 0, 0, .025)
+}
+
+a.globalFooterCard:active,
+div.globalFooterCard:active {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px)
+}
+
+a.globalFooterCard:active:after,
+div.globalFooterCard:active:after {
+    opacity: .15
+}
+
+a.globalFooterCard img,
+div.globalFooterCard img {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: -35px;
+    top: calc(50% - 65px)
+}
+
+@media (min-width:670px) {
+    a.globalFooterCard img,
+    div.globalFooterCard img {
+        left: -50px
+    }
+}
+
+@media (min-width:880px) {
+    a.globalFooterCard img,
+    div.globalFooterCard img {
+        left: -35px
+    }
+}
+
+a.globalFooterCard img .hover-fillDark,
+a.globalFooterCard img .hover-fillLight,
+div.globalFooterCard img .hover-fillDark,
+div.globalFooterCard img .hover-fillLight {
+    -webkit-transition: fill .15s;
+    transition: fill .15s
+}
+
+a.globalFooterCard:hover img .hover-fillDark,
+div.globalFooterCard:hover img .hover-fillDark {
+    fill: #32325d
+}
+
+a.globalFooterCard:hover img .hover-fillLight,
+div.globalFooterCard:hover img .hover-fillLight {
+    fill: #8898aa
+}
+
+a.globalFooterCard h2,
+div.globalFooterCard h2 {
+    margin: 0 0 5px;
+    white-space: normal
+}
+
+a.globalFooterCard p,
+div.globalFooterCard p {
+    margin: 5px 0 0
+}
+
+a.globalFooterCard.card-documentation,
+div.globalFooterCard.card-documentation {
+    color: #b76ac4
+}
+
+a.globalFooterCard.card-sigma,
+div.globalFooterCard.card-sigma {
+    color: #8f6ed5
+}

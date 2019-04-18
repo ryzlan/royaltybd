@@ -1,0 +1,33 @@
+.HDW-wrapper{
+    box-shadow: 5px 2px 5px #ccc;
+}
+.HDW-wrapper .card-body{
+    padding: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+
+
+
+.rc-steps-icon {
+    font-size: 45px !important;
+    width: auto;
+    height: auto;
+}
+.rc-steps-item-tail{
+    margin-left: 60px !important;
+    top:30px !important;
+}
+
+.rc-steps-item-description{
+    text-align: center !important;
+}
+.rc-steps-item-process {
+    color:#ccc !important;
+}
+.rc-steps-item-finish .rc-steps-icon{
+    
+}

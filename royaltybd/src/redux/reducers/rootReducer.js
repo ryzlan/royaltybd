@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux'
-import {dataReducer } from './dataReducer'
+import {homeReducer } from './homeReducer'
 
 export const rootReducer = combineReducers({
-    data:dataReducer,
+    home:homeReducer,
    // auth:
 })
 

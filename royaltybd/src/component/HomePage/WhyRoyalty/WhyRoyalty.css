@@ -1,0 +1,27 @@
+
+#key-benefits .wrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+#key-benefits .box-img{
+    
+    height: 200px;
+}
+
+.common-BodyTitle {
+   
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    color: #32325d
+}
+
+.common-BodyText {
+    
+    padding:20px 20px 20px 0px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #525f7f
+}

@@ -1,0 +1,78 @@
+
+#mostPopular .wrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 10px;
+}
+
+#mostPopular .cards{
+    border-radius: 12px;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+    /* padding: 30px; */
+}
+#mostPopular .cards-content{
+    padding:15px;
+    position: relative;
+}
+
+#mostPopular .cards-content .type{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background: #3498db;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#mostPopular .cards-content span{
+        font-size: 20px;
+    }
+
+#mostPopular .box-img{
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+}
+
+#mostPopular .common-BodyTitle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 50px;
+    color: #32325d;
+}
+
+#mostPopular .common-BodyText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding:20px 20px 20px 0px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    color: #525f7f
+}
+#mostPopular .common-BodyText p{
+    margin-bottom: 0px;
+}
+
+#mostPopular .cards:hover{
+    box-shadow:12px 10px 30px #ccc;
+}
+.react-rater-star{
+   color:  #95a5a6
+}
+.react-rater-star.is-active{
+    color:#e67e22;
+}
+#mostPopular .slick-list{
+    padding: 30px 0px ;
+}
+
+#mostPopular .slick-slide{
+    padding:0px 60px !important;
+}

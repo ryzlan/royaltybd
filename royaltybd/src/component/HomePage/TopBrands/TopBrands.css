@@ -1,0 +1,103 @@
+
+
+#topBrands .box-wrapper {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:12px 10px 30px #ccc;
+
+  }
+ #topBrands  .box-wrapper img {
+    min-width: 100%;
+  }
+  
+ 
+  
+ #topBrands  .title {
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+ #topBrands  .desc {
+    font-size: 1.2em;
+  }
+  
+ #topBrands  .box-content {
+    position: relative;
+    z-index: 1;
+  }
+ #topBrands  .box-content:before {
+    content: '';
+    width: 200%;
+    height: 100px;
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    transform: rotate(-8deg);
+    top: -50px;
+    left: -10%;
+    z-index: -1;
+  }
+ #topBrands  .box-content .desc{
+    position: absolute;
+    top: -75px;
+    right: 0;
+    background: #3498db;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+ #topBrands .box-content .price {
+    font-size: 25px;
+    font-weight: 300;
+    display: block;
+    width: 100px;
+    margin: 10px auto 0;
+    position: relative;
+  }
+ #topBrands .box-content .price:after, .box-content .price:before {
+    content: '';
+    height: 1px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    background-color: #ddd;
+    top: 20px;
+  }
+ #topBrands .box-content .price:before {
+    left: -50px;
+  }
+ #topBrands .box-content .price:after {
+    right: -50px;
+  }
+  
+  
+#topBrands .footer{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#topBrands .react-rater-star{
+   color:  #95a5a6
+}
+#topBrands .react-rater-star.is-active{
+    color:#e67e22;
+}
+#topBrands .slick-list{
+    padding: 30px 0px ;
+}
+
+#topBrands .slick-slide{
+    padding:0px 60px !important;
+}

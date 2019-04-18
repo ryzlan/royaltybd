@@ -1,1 +1,3 @@
-export const GET_DATA ="GET_DATA"
+export const GET_HOME_DATA ="GET_HOME_DATA"
+export const GET_HOME_DATA_PENDING ="GET_HOME_DATA"
+export const GET_HOME_DATA_FAILED ="GET_HOME_DATA"
