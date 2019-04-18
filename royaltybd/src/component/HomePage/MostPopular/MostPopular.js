@@ -19,43 +19,47 @@ const MostPopular = (props) => {
         slidesToShow: 2,
         slidesToScroll: 2
     }
-    return ( 
-        <section id="mostPopular">
-
-            <Container>
-                <h1 className="text-center ">Most Popular Brands</h1>
-                <Slider {...sliderOptions} >
-                    {
-                        props.top_partners.map((t, index) => {
-                            const {
-                                average_rating,
-                                partner_category,
-                                partner_name,
-                                partner_profile_image
-                            } = t
-                            return (
-                                <div className="cards" key={index}>
-                                    <img className="box-img" src={partner_profile_image} alt={partner_name} />
-                                    <div className="cards-content">
-                                        <h1 className="common-BodyTitle">{partner_name}</h1>
-                                        <div className="type"> {partner_category}</div>
-                                        <div className="common-BodyText">
-                                            <Rater rating={parseInt(average_rating)} total={5} interactive={false} />
-                                            <p><Badge variant="warning">10%</Badge></p>
+    if(props.top_partners){
+        return ( 
+            <section id="mostPopular">
+    
+                <Container>
+                    <h1 className="text-center ">Most Popular Brands</h1>
+                    <Slider {...sliderOptions} >
+                        {
+                            props.top_partners.map((t, index) => {
+                                const {
+                                    average_rating,
+                                    partner_category,
+                                    partner_name,
+                                    partner_profile_image
+                                } = t
+                                return (
+                                    <div className="cards" key={index}>
+                                        <img className="box-img" src={partner_profile_image} alt={partner_name} />
+                                        <div className="cards-content">
+                                            <h1 className="common-BodyTitle">{partner_name}</h1>
+                                            <div className="type"> {partner_category}</div>
+                                            <div className="common-BodyText">
+                                                <Rater rating={parseInt(average_rating)} total={5} interactive={false} />
+                                                <p><Badge variant="warning">10%</Badge></p>
+                                            </div>
                                         </div>
+    
+    
                                     </div>
-
-
-                                </div>
-                            )
-                        })
-                    }
-
-
-                </Slider>
-            </Container>
-        </section>
-     );
+                                )
+                            })
+                        }
+    
+    
+                    </Slider>
+                </Container>
+            </section>
+         );
+    }
+    return null;
+    
 }
  
 export default MostPopular;

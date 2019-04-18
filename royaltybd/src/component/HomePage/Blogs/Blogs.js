@@ -37,21 +37,21 @@ const Blogs = (props) => {
                                 header ,
                                 like }= n;
                             return(
-                                <div class="blog-item">
+                                <div className="blog-item" key={index*67}>
                                     <a href={post_link} target="_blank">
-                                        <div class="icon">
+                                        <div className="icon">
                                             <img src={image_url} alt={header} />
                                         </div>
-                                        <div class="content">
-                                            <div class="title">{header}  <span class="blog-date">{posted_on}</span></div>
-                                            <div class="rounded"></div>
+                                        <div className="content">
+                                            <div className="title">{header}  <span className="blog-date">{posted_on}</span></div>
+                                            <div className="rounded"></div>
 
                                             <p>
                                                 {caption}
                                             </p>
                                         </div>
 
-                                        <div class="item-arrow">
+                                        <div className="item-arrow">
                                             <FiExternalLink />
                                         </div>
                                     </a>

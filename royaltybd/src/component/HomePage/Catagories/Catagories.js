@@ -17,13 +17,13 @@ const Catagories = () => {
         <section>
             <Container>
                 <div className="wrapper">
-                        {data.map((d)=>{
+                        {data.map((d, index )=>{
                             return(
-                                <div class="card ">
-                                    <div class="card_image">
+                                <div className="card " key={index*64} >
+                                    <div className="card_image">
                                         <img src={d.img} alt={d.title} />
                                     </div>
-                                    <div class="card_title title-white">
+                                    <div className="card_title title-white">
                                         <p>{d.title}</p>
                                     </div>
                                 </div>

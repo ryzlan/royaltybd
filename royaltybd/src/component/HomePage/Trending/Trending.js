@@ -21,7 +21,7 @@ const Trending = (props) => {
         slidesToScroll: 2
     }
 
-
+    if(props.trending_offer){
     return (
     <section id="trending">
         <Container> 
@@ -31,7 +31,7 @@ const Trending = (props) => {
             <Slider {...sliderOptions} >
 
                 {
-                    props.trending.map((t,index )=>{
+                    props.trending_offer.map((t,index )=>{
                         const{
                             average_rating,
                             partner_category,
@@ -62,6 +62,8 @@ const Trending = (props) => {
         </Container>
     </section> 
     );
+            }
+            return null;
 }
  
 export default Trending;

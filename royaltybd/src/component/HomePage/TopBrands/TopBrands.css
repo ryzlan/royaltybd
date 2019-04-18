@@ -10,9 +10,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow:12px 10px 30px #ccc;
+   transition: all 400ms ease-in-out;
 
   }
+#topBrands .box-wrapper:hover{
+  box-shadow:12px 10px 30px #ccc;
+}
+
  #topBrands  .box-wrapper img {
     min-width: 100%;
   }

@@ -7,6 +7,7 @@ import { FiGift,FiCreditCard,FiHome,FiStar } from "react-icons/fi";
 
 import Card from 'react-bootstrap/Card'
 import Steps, { Step } from 'rc-steps';
+import Container from 'react-bootstrap/Container';
 
 
 class HowDoesITWork extends Component {
@@ -14,17 +15,17 @@ class HowDoesITWork extends Component {
         currentStep:0
      }
 
-    //  componentDidMount(){
-    //      this.interval = setInterval(()=>{
-    //         let s = this.state.currentStep +1 ;
-    //         if(s === 4 ){
-    //             s = 0 ;
-    //         }
-    //         this.setState({
-    //             currentStep:s 
-    //         })
-    //      }, 2000)
-    //  }
+     componentDidMount(){
+         this.interval = setInterval(()=>{
+            let s = this.state.currentStep +1 ;
+            if(s === 4 ){
+                s = 0 ;
+            }
+            this.setState({
+                currentStep:s 
+            })
+         }, 2000)
+     }
 
      componentWillUnmount() {
         clearInterval(this.interval);
@@ -41,6 +42,9 @@ class HowDoesITWork extends Component {
         const cs = this.state.currentStep;
 
         return ( 
+            <section id="hdw">
+            <Container>
+
             <Card className="HDW-wrapper">
                 <Card.Body>
                     <h1 className="header"> How Does it Work ? </h1>
@@ -58,6 +62,8 @@ class HowDoesITWork extends Component {
                     </div>
                 </Card.Body>
             </Card>
+            </Container>
+            </section>
          );
     }
 }

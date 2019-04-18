@@ -1,45 +1,56 @@
 import React, { Component } from 'react'
 
+import hero from '../../../assets/img/hero/16541.svg'
 import './Hero.css'
+import Container from 'react-bootstrap/Container'
+
 
 const Hero = () => {
     return (
-        <section>
-            <header>
-                <div id="stripes" >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+        <section id="hero">
 
-                <section id="intro">
-                    <div className="container-lg">
-                    
+
+            <Container fluid>
+                <div className="hero-wrapper">
+                    <div className="hero-content">
                         <h1>
-                            The new standard in online payments
+                            Experience Life With Royalty
                         </h1>
                         <p className="common-BodyText">
-                            Stripe is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
+                            The first ever dedicated privilege card platform of the country, where you can avail amazing discounts and offers at your desired places with our membership card.
                         </p>
                         <ul>
                             <li>
-                                <a href="https://dashboard.stripe.com/register"
+                                <a href="#whyus"
                                     className="common-Button" >
-                                    Start Now
+                                    Learn More
                                 </a>
                             </li>
                             <li>
-                                <a href="https://stripe.com/en-US/contact/sales"
+                                <a href="/"
                                     className="common-Button">
-                                    Contact Sales
+                                    Sign Up
                                  </a>
                             </li>
                         </ul>
                     </div>
-                </section>
-            </header>
+                    <div className="hero-img">
+                        <img src={hero} alt="Hero img" />
+                    </div>
+
+                </div>
+
+            </Container>
+
+            <div id="stripes">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
         </section>
     );
 }

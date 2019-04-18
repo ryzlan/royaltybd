@@ -5,7 +5,7 @@ import {
 } from '../types/dataTypes'
 
 const initialState ={
-   trending:[],
+    trending_offer:[],
    top_brands:[],
    top_partners:[],
    news_feed:[],
@@ -20,10 +20,9 @@ export const homeReducer = (state = initialState , action) =>{
         case GET_HOME_DATA:
             return{
                 ...state,
-                trending:action.payload.trending_offer,
-                top_brands:action.payload.top_brands,
-                top_partners:action.payload.top_partners,
-                news_feed:action.payload.news_feed
+                home_loading:false,
+                home_error:null,
+                ...action.payload
             }
         case GET_HOME_DATA_PENDING:
            return{
@@ -33,6 +32,7 @@ export const homeReducer = (state = initialState , action) =>{
         case GET_HOME_DATA_FAILED:
            return{
                ...state,
+               home_loading:false,
                home_error:action.payload
            }
 

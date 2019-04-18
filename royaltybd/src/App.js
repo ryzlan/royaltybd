@@ -5,9 +5,9 @@ import {connect} from 'react-redux'
 import {fetch_home_Data} from './redux/actions/HomeActions'
 
 
-import Navbar from './component/Navigation/Navbar'
+import Navbars from './component/Navigation/Navbars'
 import Home from './component/HomePage/Home'
-
+import PageNotFound from './component/ErrorPages/PageNotFound'
 
 
 class App extends Component {
@@ -22,9 +22,10 @@ class App extends Component {
     return (
       <BrowserRouter>
         <>
-          <Navbar />
+          <Navbars />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route component={PageNotFound} />
           </Switch>
         </>
       </BrowserRouter>

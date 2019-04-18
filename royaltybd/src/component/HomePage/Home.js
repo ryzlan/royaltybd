@@ -21,30 +21,31 @@ class Home extends Component {
     state = {  }
     
     render() {
-        const {trending ,top_brands ,top_partners ,news_feed} = this.props;
+        console.log(this.props);
+        
+        const {trending_offer ,top_brands ,top_partners ,news_feed} = this.props;
         
         return ( 
-            <Container>
-               
-                    {/* <HowDoesITWork /> */}
+            <>
                     <Hero />
-                    {/* <WhyRoyalty /> */}
-                    {/* <TypeCard /> */}
-                    {/* <Catagories /> */}
-                    {/* <Trending trending={trending}/> */}
-                    {/* <TopBrand top_brands={top_brands}/> */}
-                    {/* <MostPopular top_partners={top_partners}/> */}
-                    {/* <Blogs news_feed={news_feed}/> */}
+                    <WhyRoyalty />
+                    <TypeCard />
+                    <HowDoesITWork />
+                    <Catagories />
+                    <Trending trending_offer={trending_offer}/>
+                    <TopBrand top_brands={top_brands}/>
+                    <MostPopular top_partners={top_partners}/>
+                    <Blogs news_feed={news_feed}/>
 
-                    {/* <FooterAction /> */}
-            </Container>
+                    <FooterAction />
+            </>
          );
     }
 }
 const mapStateToProps = state=>{
     
     return {
-        trending:state.home.trending,
+        trending_offer:state.home.trending_offer,
         top_brands:state.home.top_brands,
         top_partners:state.home.top_partners,
         news_feed:state.home.news_feed

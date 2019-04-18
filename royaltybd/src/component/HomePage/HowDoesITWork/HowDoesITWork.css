@@ -1,33 +1,56 @@
-.HDW-wrapper{
-    box-shadow: 5px 2px 5px #ccc;
+#hdw .HDW-wrapper{
+
 }
-.HDW-wrapper .card-body{
+#hdw .HDW-wrapper .card-body{
     padding: 30px;
 }
 
-.header {
+#hdw .header {
     text-align: center;
 }
 
+#hdw .card{
+    width: 100% !important;
+    border-radius: 0px;
+    border:none;
+
+}
+#hdw .card:hover {
+    box-shadow: -11px 3px 6px rgba(0,0,0,0.25);
+
+}
 
 
-
-.rc-steps-icon {
+#hdw .rc-steps-icon {
     font-size: 45px !important;
     width: auto;
     height: auto;
 }
-.rc-steps-item-tail{
+#hdw .rc-steps-item-tail{
     margin-left: 60px !important;
     top:30px !important;
 }
+#hdw .rc-steps-item-title{
+    text-align: left !important;
+    font-size: 30px;
+    font-weight: 400;
 
-.rc-steps-item-description{
-    text-align: center !important;
+
 }
-.rc-steps-item-process {
+#hwd .rc-steps-item-content{
+    margin:0 0 !important;
+    width: 200px !important;
+}
+
+#hdw .rc-steps-item-description{
+    text-align: left !important;
+    font-size: 22px;
+    width: 200px !important;
+}
+#hdw .rc-steps-item-process {
     color:#ccc !important;
 }
-.rc-steps-item-finish .rc-steps-icon{
+
+#hdw .rc-steps-item-finish .rc-steps-icon{
     
 }
