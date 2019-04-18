@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 import {connect } from 'react-redux'
 
-import Row from 'react-bootstrap/Row'
-import Container from 'react-bootstrap/Container'
+
 
 import HowDoesITWork from './HowDoesITWork/HowDoesITWork'
 import Hero from './Hero/Hero'
@@ -14,8 +13,8 @@ import Trending from './Trending/Trending';
 import TopBrand from './TopBrands/TopBrands';
 import MostPopular from './MostPopular/MostPopular';
 import Blogs from './Blogs/Blogs';
-import FooterAction from './FooterAction/FooterAction';
-
+import FooterActionOne from './FooterAction/FooterActionOne';
+import FooterActionTwo from './FooterAction/FooterActionTwo';
 
 class Home extends Component {
     state = {  }
@@ -31,13 +30,15 @@ class Home extends Component {
                     <WhyRoyalty />
                     <TypeCard />
                     <HowDoesITWork />
+                    <FooterActionOne />
                     <Catagories />
                     <Trending trending_offer={trending_offer}/>
                     <TopBrand top_brands={top_brands}/>
                     <MostPopular top_partners={top_partners}/>
                     <Blogs news_feed={news_feed}/>
 
-                    <FooterAction />
+                    <FooterActionTwo />
+                    
             </>
          );
     }

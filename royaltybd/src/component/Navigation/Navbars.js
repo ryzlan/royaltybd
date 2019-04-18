@@ -17,7 +17,7 @@ class Navbars extends Component {
     }
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg"  sticky="top">
+            <Navbar collapseOnSelect expand="lg" >
             <Container>
                 <Navbar.Brand href="#home"><img
                     src={logo}

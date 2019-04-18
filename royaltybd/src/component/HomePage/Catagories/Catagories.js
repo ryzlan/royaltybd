@@ -1,6 +1,6 @@
 import './Catagories.css'
 
-import React, { Component } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 const Catagories = () => {
@@ -14,8 +14,9 @@ const Catagories = () => {
     ]
 
     return ( 
-        <section>
+        <section id="catagories">
             <Container>
+                <h1 className="text-center header-text">CATAGORIES</h1>
                 <div className="wrapper">
                         {data.map((d, index )=>{
                             return(

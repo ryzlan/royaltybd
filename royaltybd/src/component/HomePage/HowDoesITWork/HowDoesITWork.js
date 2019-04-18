@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card'
 import Steps, { Step } from 'rc-steps';
 import Container from 'react-bootstrap/Container';
 
+import how from '../../../assets/img/hero/how.png'
 
 class HowDoesITWork extends Component {
     state = { 
@@ -62,6 +63,10 @@ class HowDoesITWork extends Component {
                     </div>
                 </Card.Body>
             </Card>
+            <Card className="HDW-wrapper">
+                <img src={how} alt="How" />
+            </Card>
+
             </Container>
             </section>
          );

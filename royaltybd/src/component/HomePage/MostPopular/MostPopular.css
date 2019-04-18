@@ -12,7 +12,7 @@
     /* padding: 30px; */
 }
 #mostPopular .cards-content{
-    padding:15px;
+    padding:5px;
     position: relative;
 }
 
@@ -20,7 +20,7 @@
     position: absolute;
     top: -30px;
     left: 0;
-    background: #3498db;
+    background: #e74c3c;
     padding: 10px 15px;
     color: #FFFFFF;
     font-size: 14px;
@@ -40,8 +40,9 @@
 #mostPopular .common-BodyTitle {
     margin-top: 20px;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 25px;
     color: #32325d;
+    margin-bottom: 0px;
 }
 
 #mostPopular .common-BodyText {
@@ -74,5 +75,5 @@
 }
 
 #mostPopular .slick-slide{
-    padding:0px 60px !important;
+    padding:0px 10px !important;
 }

@@ -7,7 +7,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Rater from 'react-rater'
 import Slider from "react-slick";
-
+import Badge  from 'react-bootstrap/Badge';
 
 const Trending = (props) => {
     console.log(props);
@@ -17,7 +17,7 @@ const Trending = (props) => {
         lazyLoad: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 2
     }
 
@@ -46,8 +46,7 @@ const Trending = (props) => {
                                 <div className="type"> {partner_category}</div>
                                  <div className="common-BodyText">
                                  <Rater rating={parseInt(average_rating)} total={5} interactive={false} />
-
-                                
+                                    <p><Badge variant="warning">10%</Badge></p>
                                 </div>
                                 </div>
                                 
@@ -60,6 +59,13 @@ const Trending = (props) => {
             </Slider>
             
         </Container>
+        <div id="stripesThree">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
     </section> 
     );
             }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import hero from '../../../assets/img/hero/16541.svg'
 import './Hero.css'
@@ -35,7 +35,7 @@ const Hero = () => {
                         </ul>
                     </div>
                     <div className="hero-img">
-                        <img src={hero} alt="Hero img" />
+                        <img id="hero-img" src={hero} alt="Hero img" />
                     </div>
 
                 </div>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './WhyRoyalty.css'
 import diamond from  '../../../assets/img/benefits/animat-diamond-color.gif'
 import compass from '../../../assets/img/benefits/animat-compass-color.gif'
@@ -9,6 +9,7 @@ import Container from 'react-bootstrap/Container'
 const WhyRoyalty = () => {
     return ( 
         <section id="key-benefits" >
+                <h1 className="text-center header-text">Why Royalty ?</h1>
             <Container>
             <div className="wrapper">
             <div className="box">

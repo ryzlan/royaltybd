@@ -1,6 +1,15 @@
 #key-benefits{
     padding-top: 0px;
+    padding: 0px
 }
+
+#key-benefits .header-text{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 32px;
+    padding-bottom: 80px;
+    color: #32325d;
+  }
 #key-benefits .wrapper{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;

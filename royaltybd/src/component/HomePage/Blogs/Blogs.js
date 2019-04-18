@@ -13,20 +13,22 @@ const Blogs = (props) => {
         dots: true,
         lazyLoad: true,
         infinite: true,
-        speed: 500,
+        speed: 900,
         slidesToShow: 1,
         slidesToScroll: 1,
-        vertical: true,
-        verticalSwiping: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        cssEase: "ease-in"
         
       };
-
-
+      console.log(props.news_feed);
+      
+      if(props.news_feed){
 
     return (  
         <section id="blogs">
             <Container>
-                <h1 className="text-center" >Blogs</h1>
+                <h1 className="text-center" >BLOGS</h1>
                 <Slider {...settings}>
                     {
                         props.news_feed.map((n , index)=>{
@@ -35,10 +37,10 @@ const Blogs = (props) => {
                                 posted_on , 
                                 post_link ,
                                 header ,
-                                like }= n;
+                             }= n;
                             return(
                                 <div className="blog-item" key={index*67}>
-                                    <a href={post_link} target="_blank">
+                                    <a href={post_link} target="_blank" rel="noopener noreferrer">
                                         <div className="icon">
                                             <img src={image_url} alt={header} />
                                         </div>
@@ -62,8 +64,17 @@ const Blogs = (props) => {
                     }
                 </Slider>
             </Container>
+            <div id="stripesFour">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </section>
     );
+                }
+                return null;
 }
  
 export default Blogs;

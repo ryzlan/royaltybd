@@ -1,6 +1,6 @@
 import './TypeCard.css'
 
-import React, { Component } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Badge from 'react-bootstrap/Badge'
 import Button from 'react-bootstrap/Button'
@@ -10,8 +10,9 @@ import Card from './Card'
 
 const TypeCard = () => {
     return (
-        <section>
+        <section id="typeCard">
             <Container>
+                    <h1 className="text-center header-text">Cards We Offer</h1>
                 <div className="wrapper">
                     <div className="card-desc">
                         <div className="box">
@@ -47,6 +48,16 @@ const TypeCard = () => {
                     </div>
                 </div>
             </Container>
+
+            <div id="stripesTwo">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
         </section>
     );
 }

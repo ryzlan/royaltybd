@@ -1,9 +1,22 @@
 a {
+
     text-decoration: none !important;
 }
+#footerAction1, #footerAction2{
+    padding:8rem 0;
+}
+#footerAction1{
+    background: #f6f9fc;
+}
+.fA-wrapper{
+    
+    display:flex;
+    
+}
+
 .common-BodyText {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 22px;
     line-height: 28px;
     color: #525f7f
 }
@@ -218,4 +231,9 @@ div.globalFooterCard.card-documentation {
 a.globalFooterCard.card-sigma,
 div.globalFooterCard.card-sigma {
     color: #8f6ed5
+}
+
+.fA-card-wrap{
+    margin: 0 auto;
+    width: 70%;
 }

@@ -16,8 +16,9 @@ const MostPopular = (props) => {
         lazyLoad: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        
     }
     if(props.top_partners){
         return ( 
@@ -40,10 +41,6 @@ const MostPopular = (props) => {
                                         <div className="cards-content">
                                             <h1 className="common-BodyTitle">{partner_name}</h1>
                                             <div className="type"> {partner_category}</div>
-                                            <div className="common-BodyText">
-                                                <Rater rating={parseInt(average_rating)} total={5} interactive={false} />
-                                                <p><Badge variant="warning">10%</Badge></p>
-                                            </div>
                                         </div>
     
     

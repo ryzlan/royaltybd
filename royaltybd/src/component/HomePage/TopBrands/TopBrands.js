@@ -2,10 +2,10 @@ import 'react-rater/lib/react-rater.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './TopBrands.css'
-import sign from '../../../assets/img/benefits/animat-sign-post-color.gif'
+
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import  Badge  from 'react-bootstrap/Badge';
+
 import Rater from 'react-rater'
 import Slider from "react-slick";
 
@@ -15,7 +15,7 @@ const TopBrand = (props) => {
         lazyLoad: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 2
     }
     console.log(props);
@@ -59,8 +59,9 @@ const TopBrand = (props) => {
                 </Container>
             </section> 
          );
-         return null;
+         
     }
+    return null;
     
 }
  
