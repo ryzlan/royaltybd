@@ -1,7 +1,7 @@
 {
   "name": "royaltybd",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://ryzlan.github.io/royaltybd",
   "dependencies": {
     "antd": "^3.16.3",
