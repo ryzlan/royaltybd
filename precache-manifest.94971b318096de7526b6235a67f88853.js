@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "419c2bacd4e548d8bcc8",
-    "url": "/royaltybd/static/css/main.44ee14fe.chunk.css"
+    "revision": "849f14a57063a2fab6d1",
+    "url": "/royaltybd/static/css/main.eb171968.chunk.css"
   },
   {
     "revision": "7b189dea204708024091",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "419c2bacd4e548d8bcc8",
+    "revision": "849f14a57063a2fab6d1",
     "url": "/royaltybd/static/js/main.3b665b40.chunk.js"
   },
   {
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/css/2.e4e32dd8.chunk.css"
   },
   {
-    "revision": "be3084a6d9bc11a5a1143a7d82269405",
+    "revision": "06d38ac653c356c488439e844dc41e70",
     "url": "/royaltybd/index.html"
   }
 ];

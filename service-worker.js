@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/royaltybd/precache-manifest.1ed5435baca4ef4bef605643af2b00a6.js"
+  "/royaltybd/precache-manifest.94971b318096de7526b6235a67f88853.js"
 );
 
 workbox.clientsClaim();
