@@ -4,40 +4,36 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "849f14a57063a2fab6d1",
-    "url": "/royaltybd/static/css/main.eb171968.chunk.css"
+    "revision": "f3fa51017a9185f87af6",
+    "url": "/royaltybd/static/css/main.336ddbd0.chunk.css"
   },
   {
     "revision": "7b189dea204708024091",
     "url": "/royaltybd/static/js/runtime~main.4aa2670e.js"
   },
   {
-    "revision": "6dcd55c1147dd0c1f453480492d35d6a",
-    "url": "/royaltybd/static/media/piggy-bank.6dcd55c1.svg"
+    "revision": "fe56dba113e9460e9f7b5f6272fb3770",
+    "url": "/royaltybd/static/media/how.fe56dba1.png"
   },
   {
-    "revision": "515a928ce41c9b2e9cc0",
-    "url": "/royaltybd/static/js/2.38f09b3b.chunk.js"
+    "revision": "8409eca4f017afce7f35",
+    "url": "/royaltybd/static/js/2.7c88a45c.chunk.js"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/royaltybd/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/royaltybd/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/royaltybd/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "849f14a57063a2fab6d1",
-    "url": "/royaltybd/static/js/main.3b665b40.chunk.js"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/royaltybd/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "fe56dba113e9460e9f7b5f6272fb3770",
-    "url": "/royaltybd/static/media/how.fe56dba1.png"
+    "revision": "f3fa51017a9185f87af6",
+    "url": "/royaltybd/static/js/main.0cf1c251.chunk.js"
   },
   {
     "revision": "861bd3494e9757eaf90a1aff84655628",
@@ -60,11 +56,15 @@ self.__precacheManifest = [
     "url": "/royaltybd/static/media/cash.1678a3ec.svg"
   },
   {
-    "revision": "515a928ce41c9b2e9cc0",
-    "url": "/royaltybd/static/css/2.e4e32dd8.chunk.css"
+    "revision": "6dcd55c1147dd0c1f453480492d35d6a",
+    "url": "/royaltybd/static/media/piggy-bank.6dcd55c1.svg"
   },
   {
-    "revision": "06d38ac653c356c488439e844dc41e70",
+    "revision": "8409eca4f017afce7f35",
+    "url": "/royaltybd/static/css/2.944c373c.chunk.css"
+  },
+  {
+    "revision": "279c19daf7ab85a6887a250c56b2ad51",
     "url": "/royaltybd/index.html"
   }
 ];
