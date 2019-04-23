@@ -70,11 +70,12 @@
 .navbar-nav button{
 
     color:#fff !important;
+    background-color: #00b894;
     border-color: #00b894;
     transition: all 400ms ease-in-out
 }
 .navbar-nav button:hover{
     color: #fff;
-    background-color: #00b894;
     border-color:#00b894;
+    background-color:transparent;
 }

@@ -1,10 +1,12 @@
 /* #8898aa; */
 #footer{
-    padding: 0px 0px;
+    position: relative;
+    padding: 10px 0px;
     background: #f6f9fc;
     color:#8898aa; 
 }
 #footer .foot-header{
+    font-size: 22px;
     display: inline-block;
     padding-bottom: 10px;
     border-bottom: 2px solid #2a2a2a
@@ -29,3 +31,4 @@
     flex-direction: row;
     justify-content: center;
 }
+

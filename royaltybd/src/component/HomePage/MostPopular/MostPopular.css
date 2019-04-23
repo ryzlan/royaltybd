@@ -62,7 +62,7 @@
 }
 
 #mostPopular .cards:hover{
-    box-shadow:12px 10px 30px #ccc;
+    box-shadow:2px 0px 5px #000;
 }
 .react-rater-star{
    color:  #95a5a6

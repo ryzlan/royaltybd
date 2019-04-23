@@ -19,7 +19,6 @@
     max-width: 1000px;
     margin: auto;
     color: #333;
-    font-family: 'Lato', sans-serif;
     font-size: 16px;
     border-radius: 6px;
     margin-bottom: 50px;
@@ -29,7 +28,7 @@
 }
 
 #blogs .blog-item a:hover {
-    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+    box-shadow:2px 0px 5px rgba(0, 0, 0, 0.2);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -52,7 +51,7 @@
     text-transform: capitalize;
     color: #25aae1;
     font-weight: 600;
-    font-family: 'Lato', sans-serif;
+    
 }
 
 
@@ -61,7 +60,7 @@
     font-size: 12px;
     margin-left: 20px;
     color: #333;
-    font-family: 'Lato', sans-serif;
+
 }
 
 #blogs .blog-item .content .title .blog-date:before {
@@ -175,16 +174,14 @@
     position: absolute
 }
 #stripesFour {
-    top: 315px;
+    top: 300px;
     z-index: -1;
     width: 100%;
     height: 100%;
     overflow: hidden;
     transform: skewY(-12deg);
     transform-origin: 0;
-    background: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     
     
     

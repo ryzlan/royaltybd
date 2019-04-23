@@ -72,7 +72,8 @@
 
 
 #trending .cards:hover{
-    box-shadow:12px 10px 30px #ccc;
+    box-shadow:2px 0px 5px #000;
+    
 }
 .react-rater-star{
    color:  #95a5a6
@@ -120,13 +121,9 @@
     overflow: hidden;
     transform: skewY(-12deg);
     transform-origin: 0;
-    background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-
+    background-image: linear-gradient(to right top, #00f2fe, #00e5ff, #2fd8ff, #50caff, #6bbbf8, #7cbbf4, #89bbef, #95bbea, #a5c8eb, #b7d4ec, #cce0ee, #e2ebf0);
 
   
 }

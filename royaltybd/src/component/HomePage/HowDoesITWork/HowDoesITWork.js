@@ -63,9 +63,9 @@ class HowDoesITWork extends Component {
                     </div>
                 </Card.Body>
             </Card>
-            <Card className="HDW-wrapper">
+            {/* <Card className="HDW-wrapper">
                 <img src={how} alt="How" />
-            </Card>
+            </Card> */}
 
             </Container>
             </section>
